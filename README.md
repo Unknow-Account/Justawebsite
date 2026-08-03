@@ -1,2 +1,2 @@
-# WebsitePersonal
+# JustAWebsite
 Hackatime
