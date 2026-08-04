@@ -46,15 +46,22 @@ body{
     background-color: rgba(140, 26, 26, 0.23);
     padding-top: 10px;
     padding-bottom: 10px;
+
 }
 
 .generalfontS {
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 
-    background-color: rgba(25, 95, 31, 0.23);
+    background-color: rgba(25, 95, 31, 0.5);
     padding-top: 10px;
     padding-bottom: 10px;
+
+    justify-content: center;
+    margin: 0 auto;
+
+    width:500px;
+    border-radius: 80px
 }
 
 .generalfontS2 {
@@ -65,7 +72,7 @@ body{
 .generalfontPeak {
     font-family:Georgia, 'Times New Roman', Times, serif;
 
-    background-color: rgba(25, 95, 31, 0.23);
+    background-color: rgba(68, 87, 185, 0.5);
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
@@ -75,6 +82,9 @@ body{
     display: flex;
     flex-direction: row;
     gap: 10%;
+
+    width: 800px;
+    border-radius: 80px
 }
 
 .generalfontPeak2 {
@@ -83,4 +93,17 @@ body{
 
 .generalfontPeak3 {
         text-align: left;
+}
+
+.href:link {
+    color:white;
+}
+
+
+.href:visited {
+    color:white;
+}
+
+.href:hover {
+    color:antiquewhite;
 }
